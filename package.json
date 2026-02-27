@@ -8,12 +8,13 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "server" : "json-server --watch data/cities.json --port 9440"
+    "server": "json-server --watch data/cities.json --port 9440"
   },
   "dependencies": {
     "json-server": "^1.0.0-beta.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0-rc.2",
     "react-router": "^7.13.0"
   },
   "devDependencies": {
